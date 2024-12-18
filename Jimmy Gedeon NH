@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Jimmy Gedeon – IT Project Manager in NH specializing in SharePoint upgrades and UX design. Explore professional insights and projects.">
+    <meta name="keywords" content="Jimmy Gedeon IT Specialist in NH, IT Solutions, Strategic Planning, SharePoint Upgrades, UX Design, IT Project Management">
+    <meta name="author" content="Jimmy Gedeon">
+    <title>Jimmy Gedeon – IT Project Manager</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Open+Sans:wght@400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="hero">
+            <h1>Jimmy Gedeon – IT Project Manager and SharePoint Specialist in NH</h1>
+            <p>Enhancing User Experiences Through Strategic IT Solutions</p>
+            <nav>
+                <ul>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#blog">Blog</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section id="about">
+            <h2>About Me</h2>
+            <p>
+                With a PMP certification and a proven track record in SharePoint upgrades, UX design, and IT project management, 
+                Jimmy Gedeon specializes in enhancing workflow efficiency through strategic IT solutions.
+            </p>
+        </section>
+        <section id="services">
+            <h2>Services</h2>
+            <ul>
+                <li>SharePoint Migrations and Upgrades</li>
+                <li>UX Design Consultation</li>
+                <li>IT Project Management Services</li>
+            </ul>
+        </section>
+        <section id="projects">
+            <h2>Projects</h2>
+            <div class="project">
+                <h3>Healthcare SharePoint Redesign</h3>
+                <p>Redesigned SharePoint architecture for a healthcare company in Concord, NH, improving workflow and efficiency.</p>
+            </div>
+        </section>
+        <section id="blog">
+            <h2>Blog</h2>
+            <article>
+                <h3>How SharePoint Upgrades Improve Workflow Efficiency</h3>
+                <p>SharePoint upgrades can significantly enhance collaboration and operational efficiency. <a href="#">Read more...</a></p>
+            </article>
+            <article>
+                <h3>Jimmy Gedeon’s Approach to UX Design for IT Projects in NH</h3>
+                <p>Learn about Jimmy's process for delivering user-centric IT solutions. <a href="#">Read more...</a></p>
+            </article>
+        </section>
+        <section id="contact">
+            <h2>Contact</h2>
+            <form action="https://formsubmit.co/your-email@example.com" method="POST">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                <button type="submit">Submit</button>
+            </form>
+            <p>Connect on <a href="https://www.linkedin.com/in/james-gfl" target="_blank">LinkedIn</a> or explore <a href="#" target="_blank">Medium Blog</a>.</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Jimmy Gedeon. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #F5F5F5;
+    margin: 0;
+}
+
+header {
+    background-color: #1A1F71;
+    color: white;
+    text-align: center;
+    padding: 2rem 1rem;
+}
+
+header .hero h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+header .hero p {
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #008080;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 2rem 1rem;
+}
+
+h2 {
+    color: #1A1F71;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 1rem;
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+.project {
+    background-color: white;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 1rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+    margin-bottom: 0.5rem;
+}
+
+form input, form textarea, form button {
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+form button {
+    background-color: #008080;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+form button:hover {
+    background-color: #005F5F;
+}
+
+footer {
+    background-color: #1A1F71;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    font-size: 0.9rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    header .hero h1 {
+        font-size: 2rem;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 5px 0;
+    }
+}
